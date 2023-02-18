@@ -193,4 +193,20 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+.portfolio {
+    position: relative;
+}
+
+.text-portfolio {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
