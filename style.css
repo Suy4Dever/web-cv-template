@@ -67,3 +67,28 @@ header {
     font-size: 24px;
     letter-spacing: 10px;
 }
+
+.article-introduction-container {
+    margin: 0px 44px;
+    padding: 64px 16px;
+}
+
+.article-introduction-container h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #777;
+}
+
+.introduction-title {
+    color: #777;
+    margin: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.introduction-content {
+    opacity: 0.75;
+}
