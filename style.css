@@ -15,8 +15,14 @@
     color: #777;
 }
 
+.nav-container a:link {
+    display: inline-block;
+    font-weight: 400;
+}
+
 .nav-container a:visited {
     color: #777;
+    font-weight: 400;
 }
 
 .nav-container a:hover {
@@ -33,4 +39,27 @@
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+header {
+    height: 400px;
+    background-image: url("./img/parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75;
+    position: relative;
+}
+
+.my-website-title {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: black;
+}
+
+.my-website-title p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 10px;
 }
