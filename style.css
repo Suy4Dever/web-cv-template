@@ -91,4 +91,44 @@ header {
 
 .introduction-content {
     opacity: 0.75;
+    margin: 15px 0px;
+}
+
+.user-icon {
+    margin-right: 15px;
+}
+
+.author-container p {
+    font-weight: bold;
+    color: #777;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.author-container {
+    padding: 12px 24px;
+}
+
+.author-container img {
+    margin-top: 33px;
+    width: 100%;
+    aspect-ratio: auto 500 / 333;
+}
+
+.author-content-container {
+    display: flex;
+}
+
+.author-container {
+    width: 50%;
+}
+
+.content-container {
+    width: 50%;
+}
+
+.content-container {
+    padding: 12px 24px;
+    color: #777;
+    margin: 15px;
 }
