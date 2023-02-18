@@ -132,3 +132,40 @@ header {
     color: #777;
     margin: 15px;
 }
+
+.good-title {
+    font-size: 18px;
+    color: #777;
+    margin: 18px 0px;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+.level-title {
+    color:#777;
+    letter-spacing: 10px;
+    margin: 15px 0px;
+}
+
+.major-level {
+    background-color: #f1f1f1;
+    color: white;
+}
+
+.photo-real-level, .web-real-level, .photoshop-real-level {
+    background-color: #616161;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.photo-real-level {
+    width: 90%;
+}
+
+.web-real-level {
+    width: 85%;
+}
+
+.photoshop-real-level {
+    width: 75%;
+}
