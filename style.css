@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Lato";
+    font-size: 15px;
+    line-height: 1.8;
+    /* color: #777; */
+}
+
+.nav-container a:link, .search-button {
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-container a:visited {
+    color: #777;
+}
+
+.nav-container a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.search-button:hover {
+    display: inline-block;
+    color: white;
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
