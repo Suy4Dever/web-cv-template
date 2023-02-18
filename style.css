@@ -169,3 +169,28 @@ header {
 .photoshop-real-level {
     width: 75%;
 }
+
+.portfolio-number {
+    padding: 16px 0px;
+    color: white;
+    display: flex;
+    background-color: #616161;
+}
+
+.portfolio-detail-container {
+    margin: 16px 0px;
+    width: 25%;
+    text-align: center;
+}
+
+.number-client {
+    font-size: 24px;
+}
+
+.img-portfolio {
+    height: 400px;
+    background-image: url("./img/parallax2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
