@@ -346,3 +346,25 @@ header {
     font-size: 15px;
     margin: 0px;
 }
+
+input {
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 16px;
+    row-gap: 8px;
+    margin-left: 16px;
+}
+
+#message {
+    grid-column: 1 / span 2;
+}
+
+.address-info-detail {
+    flex-grow: 1;
+}
