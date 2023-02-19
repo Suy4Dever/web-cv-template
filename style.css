@@ -402,6 +402,7 @@ form {
     border: none;
     background-color: white;
     margin: 0px auto;
+    cursor: pointer;
 }
 
 .go-top-button:hover {
@@ -428,4 +429,8 @@ form {
 .author-end {
     color: white;
     text-align: center;
+}
+
+.list-social span:hover {
+    opacity: 0.6;
 }
