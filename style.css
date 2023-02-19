@@ -210,3 +210,32 @@ header {
     left: 50%;
     transform: translate(-50%, 50%);
 }
+
+.my-work-container {
+    margin: 0px 44px;
+    padding: 64px 16px;
+}
+
+.my-work-header {
+    margin: 10px 0px;
+    color: #777;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.my-work-title-1 {
+    margin-top: 15px;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+}
+
+.my-work-title-2 {
+    margin-bottom: 15px;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+}
+
