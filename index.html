@@ -143,25 +143,25 @@
             <p>
               <span class="fa fa-envelope last-info"></span>Email: mail@mail.com
             </p>
-            <p>
+            <p id="donate-field">
               Swing by for a cup of <span class="fa fa-coffee"></span>, or leave
               me a note:
             </p>
+            <form action="#">
+              <input type="text" id="name" name="name" placeholder="Name" />
+              <input type="email" id="email" name="email" placeholder="Email" />
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Message"
+              />
+            </form>
+            <button class="send-message-button">
+              <span class="fa fa-telegram"></span>
+              send message
+            </button>
           </div>
-          <form action="#">
-            <input type="text" id="name" name="name" placeholder="Name" />
-            <input type="email" id="email" name="email" placeholder="Email" />
-            <input
-              type="text"
-              id="message"
-              name="message"
-              placeholder="Message"
-            />
-          </form>
-          <button class="send-message-button">
-            <span class="fa fa-telegram"></span>
-            send message
-          </button>
         </div>
       </div>
     </article>

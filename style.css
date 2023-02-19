@@ -315,10 +315,34 @@ header {
 
 .img-container {
     padding: 0px 16px;
+    width: 33.3333%;
 }
 
 .address-info-container img{
-    width: 33.3333%;
+    width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+.address-info-detail span {
+    margin-right: 15px;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.address-info-detail p {
+    font-size: 18px;
+    color: #777;
+    margin: 4px 0px;
+}
+
+#donate-field {
+    font-size: 15px;
+    margin: 15px 0px;
+    margin-left: 16px;
+}
+
+#donate-field span {
+    font-size: 15px;
+    margin: 0px;
 }
