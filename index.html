@@ -15,13 +15,13 @@
   </head>
 
   <body>
-    <header>
+    <header id="top">
       <nav>
         <div class="nav-container">
-          <a href="#">home</a>
-          <a href="#"><span class="fa fa-user"></span> about</a>
-          <a href="#"><span class="fa fa-th"></span> portfolio</a>
-          <a href="#"><span class="fa fa-envelope"></span> contact</a>
+          <a href="#top">home</a>
+          <a href="#about"><span class="fa fa-user"></span> about</a>
+          <a href="#portfolio"><span class="fa fa-th"></span> portfolio</a>
+          <a href="#contact"><span class="fa fa-envelope"></span> contact</a>
         </div>
         <div class="search-button">
           <span class="fa fa-search"></span>
@@ -32,7 +32,7 @@
       </div>
     </header>
     <article>
-      <div class="article-introduction-container">
+      <div class="article-introduction-container" id="about">
         <h3 class="introduction-author">about me</h3>
         <p class="introduction-title">I love photography</p>
         <p class="introduction-content">
@@ -84,7 +84,7 @@
           <div class="photoshop-real-level">75%</div>
         </div>
       </div>
-      <div class="portfolio-container">
+      <div class="portfolio-container" id="portfolio">
         <div class="portfolio-number">
           <div class="portfolio-detail-container">
             <p class="number-client">14+</p>
@@ -108,7 +108,7 @@
           <p class="text-portfolio">portfolio</p>
         </div>
       </div>
-      <div class="my-work-container">
+      <div class="my-work-container" id="">
         <h3 class="my-work-header">my work</h3>
         <p class="my-work-title-1">
           Here are some of my latest lorem work ipsum tipsum.
@@ -130,7 +130,7 @@
       <div class="contact-container">
         <p>contact</p>
       </div>
-      <div class="where-work-container">
+      <div class="where-work-container" id="contact">
         <h3 class="where-work-header">where i work</h3>
         <p class="where-work-title">I'd love your feedback!</p>
         <div class="address-info-container">
@@ -167,7 +167,7 @@
     </article>
     <footer>
       <div class="footer-container">
-        <button class="go-top-button">
+        <button class="go-top-button" href="#top">
           <span class="fa fa-arrow-up"></span>
           To the top
         </button>
