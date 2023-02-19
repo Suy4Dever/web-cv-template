@@ -239,3 +239,15 @@ header {
     text-align: center;
 }
 
+.my-work-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.my-work-gallery img {
+    width: 100%;
+    height: auto;
+}
