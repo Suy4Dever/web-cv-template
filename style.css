@@ -390,3 +390,8 @@ form {
     background-color: #ccc;
     color: black;
 }
+
+.footer-container {
+    padding: 64px 0px;
+    background-color: black;
+}
