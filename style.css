@@ -251,3 +251,15 @@ header {
     width: 100%;
     height: auto;
 }
+
+.load-more-button {
+    display: block;
+    margin: 64px auto;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.load-more-button:hover {
+    background-color: #ccc;
+}
