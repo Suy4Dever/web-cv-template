@@ -394,15 +394,28 @@ form {
 .footer-container {
     padding: 64px 0px;
     background-color: black;
+    /* position: relative; */
+    text-align: center;
 }
 
-.go-top-button {
-    display: block;
+.go-top-button:link {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
     padding: 8px 16px;
     border: none;
     background-color: white;
     margin: 0px auto;
     cursor: pointer;
+    text-decoration: none;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%;
+    transform: translate(0%, -50%); */
+}
+
+.go-top-button:visited {
+    color: black;
 }
 
 .go-top-button:hover {
