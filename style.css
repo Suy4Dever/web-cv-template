@@ -355,7 +355,7 @@ input {
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    /* width: 100%; */
     column-gap: 16px;
     row-gap: 8px;
     margin-left: 16px;
@@ -367,4 +367,26 @@ form {
 
 .address-info-detail {
     flex-grow: 1;
+}
+
+.send-message-button {
+    background-color: black;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    color: white;
+    text-transform: uppercase;
+    /* display: flex;
+    justify-content: flex-end; */
+    float: right;
+    border: none;
+}
+
+.send-message-button span {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.send-message-button:hover {
+    background-color: #ccc;
+    color: black;
 }
