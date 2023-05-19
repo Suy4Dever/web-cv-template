@@ -147,6 +147,10 @@ header {
     padding-top: 69px;
 } 
 
+.a {
+    max-width: 100%;
+}
+
 .good-title {
     font-size: 18px;
     color: #777;
