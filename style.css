@@ -142,6 +142,11 @@ header {
     margin: 15px;
 }
 
+.abc {
+    display: inline-block;
+    padding-top: 69px;
+} 
+
 .good-title {
     font-size: 18px;
     color: #777;
